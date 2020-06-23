@@ -1,6 +1,8 @@
 # Project_Akhir_IoT
 Contains 3 code (2 ino code and 1 android studio) for my IoT class final project, Both uses ESP8266
 
+Check the Demo Here: https://youtu.be/fHi7LZjhVQ0
+
 Project 1 (Poor Man's Remote Light Switch / Servo_Lampu.ino & the Final Project rar):
 
 The point of this code is to use a servo as a light switch, the ESP8266 is connected to firebase so the servo can be controlled via the internet using an Android App. This project uses MFRC522 RFID reader to allow the ESP to connect to the internet using WiFi once authorized RFID is scanned, and uses 2nd authorized RFID to disconnects the ESP from the WiFi. This project also uses LDR to later give signal to the application whether the rooms is currently bright or not (I didn't use ON or OFF as a precaution if an external light source aside from the room's light might be interferring with the LDR value).
